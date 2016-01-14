@@ -1,7 +1,7 @@
-grocery_list = ["carrots", "toilet paper", "cookies", "fish", "rice"]
+grocery_list = ["carrots", "toilet paper", "cookies", "fish"]
 
 # grocery_list.add_item("rice")
-
+grocery_list << "rice"
 # grocery_list.each do |item|
 #   puts "* " + item
 # end
