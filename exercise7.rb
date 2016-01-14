@@ -25,6 +25,4 @@ students.delete(:cohort2)
 student_list(students)
 
 ##### BONUS ######
-puts students.values.inject(0) do |sum, tuple|
-  sum += tuple[1]
-end
+students.inject { |result, element| result + element }

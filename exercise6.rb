@@ -8,7 +8,7 @@ grocery_list = ["carrots", "toilet paper", "cookies", "fish", "rice"]
 
 def output_list(list)
   list.each do |item|
-  puts "* " + item
+    puts "* " + item
   end
 end
 
